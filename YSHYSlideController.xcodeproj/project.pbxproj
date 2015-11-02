@@ -15,7 +15,7 @@
 		E58F0AF51BE2174300E282A7 /* YSHYSlideControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E58F0AF41BE2174300E282A7 /* YSHYSlideControllerUITests.m */; };
 		E5EC27C61BE7479F002FCB79 /* LeftMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC27C21BE7479F002FCB79 /* LeftMenuController.m */; settings = {ASSET_TAGS = (); }; };
 		E5EC27C71BE7479F002FCB79 /* YSHYSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC27C41BE7479F002FCB79 /* YSHYSlideViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E5EC27CA1BE74885002FCB79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC27C91BE74885002FCB79 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E5EC27CC1BE7573B002FCB79 /* YSHYSlideView.gif in Resources */ = {isa = PBXBuildFile; fileRef = E5EC27CB1BE7573B002FCB79 /* YSHYSlideView.gif */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +53,7 @@
 		E5EC27C21BE7479F002FCB79 /* LeftMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuController.m; sourceTree = "<group>"; };
 		E5EC27C31BE7479F002FCB79 /* YSHYSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSHYSlideViewController.h; sourceTree = "<group>"; };
 		E5EC27C41BE7479F002FCB79 /* YSHYSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSHYSlideViewController.m; sourceTree = "<group>"; };
-		E5EC27C81BE74885002FCB79 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E5EC27C91BE74885002FCB79 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E5EC27CB1BE7573B002FCB79 /* YSHYSlideView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YSHYSlideView.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				E5EC27BD1BE7479F002FCB79 /* YSHYSlideViewController */,
-				E5EC27C81BE74885002FCB79 /* ViewController.h */,
-				E5EC27C91BE74885002FCB79 /* ViewController.m */,
 				E58F0AD21BE2174300E282A7 /* AppDelegate.h */,
 				E58F0AD31BE2174300E282A7 /* AppDelegate.m */,
 				E58F0ADB1BE2174300E282A7 /* Assets.xcassets */,
@@ -147,6 +144,7 @@
 		E5EC27BD1BE7479F002FCB79 /* YSHYSlideViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E5EC27CB1BE7573B002FCB79 /* YSHYSlideView.gif */,
 				E5EC27C01BE7479F002FCB79 /* SlideView */,
 				E5EC27C31BE7479F002FCB79 /* YSHYSlideViewController.h */,
 				E5EC27C41BE7479F002FCB79 /* YSHYSlideViewController.m */,
@@ -268,6 +266,7 @@
 			files = (
 				E58F0ADF1BE2174300E282A7 /* LaunchScreen.storyboard in Resources */,
 				E58F0ADC1BE2174300E282A7 /* Assets.xcassets in Resources */,
+				E5EC27CC1BE7573B002FCB79 /* YSHYSlideView.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +291,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5EC27CA1BE74885002FCB79 /* ViewController.m in Sources */,
 				E58F0AD41BE2174300E282A7 /* AppDelegate.m in Sources */,
 				E5EC27C71BE7479F002FCB79 /* YSHYSlideViewController.m in Sources */,
 				E58F0AD11BE2174300E282A7 /* main.m in Sources */,

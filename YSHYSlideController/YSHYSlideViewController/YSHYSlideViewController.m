@@ -90,6 +90,18 @@ static YSHYSlideViewController *signletonInstance;
     }];
 }
 
+-(void)GotoRootViewController
+{
+    [super popToRootViewControllerAnimated:NO];
+    [UIView animateWithDuration:0.25 animations:^{
+//        [super pushViewController:viewController animated:NO];
+        [self.view setFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    } completion:^(BOOL finished) {
+        
+        [self.leftMenu.view removeFromSuperview];
+    }];
+}
+
 
 
 

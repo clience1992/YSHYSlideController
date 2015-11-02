@@ -25,6 +25,7 @@
     //菜单默认选择第一行
     [self.tableMenu selectRowAtIndexPath:self.currentIndex animated:NO scrollPosition:UITableViewScrollPositionNone];
     [self.view addSubview:self.tableMenu];
+    
 }
 
 
@@ -56,9 +57,10 @@
 {
     if(indexPath.row == 0)
     {
-        UIViewController *VC = [[UIViewController alloc]init];
-        [VC.view setBackgroundColor:[UIColor grayColor]];
-        [[YSHYSlideViewController shareInstance] GotoViewController:VC];
+//        UIViewController *VC = [[UIViewController alloc]init];
+//        [VC.view setBackgroundColor:[UIColor grayColor]];
+//        [[YSHYSlideViewController shareInstance] GotoViewController:VC];
+        [[YSHYSlideViewController shareInstance] GotoRootViewController];
     }
     else if(indexPath.row == 1)
     {

@@ -16,4 +16,5 @@
 +(YSHYSlideViewController *)shareInstance;
 -(void)setMainViewController:(UIViewController *)ViewController;
 -(void)GotoViewController:(UIViewController *)viewController;
+-(void)GotoRootViewController;
 @end

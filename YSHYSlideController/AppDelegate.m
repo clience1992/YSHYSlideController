@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "YSHYSlideViewController.h"
 #import "LeftMenuController.h"
 @interface AppDelegate ()
 
@@ -20,9 +20,14 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    //设置菜单Controller
     LeftMenuController * leftMenu = [[LeftMenuController alloc]init];
-    [ViewController shareInstance].leftMenu = leftMenu;
-    self.window.rootViewController = [ViewController shareInstance];
+    [YSHYSlideViewController shareInstance].leftMenu = leftMenu;
+    self.window.rootViewController = [YSHYSlideViewController shareInstance];
+    //设置mainController
+    UIViewController * mainController = [[UIViewController alloc]init];
+    [[YSHYSlideViewController shareInstance] setMainViewController:mainController];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
