@@ -57,9 +57,6 @@
 {
     if(indexPath.row == 0)
     {
-//        UIViewController *VC = [[UIViewController alloc]init];
-//        [VC.view setBackgroundColor:[UIColor grayColor]];
-//        [[YSHYSlideViewController shareInstance] GotoViewController:VC];
         [[YSHYSlideViewController shareInstance] GotoRootViewController];
     }
     else if(indexPath.row == 1)
