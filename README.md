@@ -1,5 +1,6 @@
 # YSHYSlideController
 这是一个实现侧滑菜单的小demo,只需进行简单的配置就可实现侧滑的菜单的效果 目前还不支持自定义menu 后续我会继续修改更新
+
 在AppDele中导入
 #import "YSHYSlideViewController.h"
 #import "LeftMenuController.h"
@@ -29,6 +30,6 @@
 }
 
 下面是演示效果
-![image](https://github.com/DecembeGrirl/YSHYSlideController/blob/master/YSHYSlideController/YSHYSlideController/YSHYSlideViewController/YSHYSlideView.gif)
+![image](https://github.com/DecembeGrirl/YSHYSlideController/blob/master/YSHYSlideController/YSHYSlideViewController/YSHYSlideView.gif)
 
 如果发现问题或者有任何建议欢迎大家提出来,让我们发扬开源精神一起改进
